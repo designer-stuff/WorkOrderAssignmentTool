@@ -1,0 +1,14 @@
+.workorder-container {
+  position: relative;
+  left: 5rem;
+  width: auto;
+  display: inline-block;
+  padding: 1rem;
+  margin-top: 2rem;
+  background-color: aliceblue;
+  border-radius: 5px;
+}
+
+.workorder-table tbody tr td {
+  padding: 1rem;
+}

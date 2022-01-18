@@ -1,0 +1,38 @@
+.order {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  width: 14rem;
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid #c7c7c7;
+  border-radius: 5px;
+}
+
+.order-notavailable {
+  background-color: #ebebeb;
+  border-radius: 5px;
+  padding: 1rem;
+  height: 6rem;
+  width: 14rem;
+}
+
+.workorder {
+  font-size: 1.1rem;
+}
+
+.workorder::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #c7c7c7;
+  margin: 2px 0;
+}
+
+.job {
+  font-size: 1.1rem;
+  font-style: italic;
+}

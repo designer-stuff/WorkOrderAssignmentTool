@@ -1,0 +1,52 @@
+.table {
+  margin: 1rem auto;
+}
+
+.table td {
+  height: 6rem;
+  width: 15rem;
+  padding: 2rem;
+  border: 1px solid black;
+}
+
+.table thead {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.table thead tr td:first-child {
+  border: none;
+}
+
+.table tbody tr td:first-child {
+  border-width: 0 0 1px 0;
+  border-bottom-style: dashed;
+}
+
+.table tbody tr td:not(:first-child) {
+  border-bottom-style: dashed;
+  cursor: pointer;
+}
+
+.emp-name {
+  font-size: 1.4rem;
+}
+
+.header {
+  margin: 2rem;
+}
+
+.btn {
+  background: #b9b9b9;
+  margin: 2rem 0;
+  padding: 1rem 5rem;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.2s ease-out;
+}
+
+.btn:active {
+  transform: scale(0.95);
+}
